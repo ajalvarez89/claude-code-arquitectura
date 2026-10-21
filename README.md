@@ -2,7 +2,7 @@
 
 Proyecto de demostración del video **"Claude Code sin romper tu arquitectura"** (Ajá Code · @ajaa.code).
 
-Video: [ENLACE AL VIDEO]
+Video: https://youtu.be/L9MO7i-zzXM
 
 Muestra un setup de Claude Code para proyectos reales:
 - `CLAUDE.md` con comandos, capas y **glosario del dominio**.
