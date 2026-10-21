@@ -1,0 +1,20 @@
+{
+  "name": "reservas-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "API de reservas de ejemplo para el video 'Claude Code sin romper tu arquitectura' (Ajá Code)",
+  "scripts": {
+    "dev": "tsx src/infra/http/server.ts",
+    "test": "vitest run",
+    "arch:check": "depcruise src --config .dependency-cruiser.cjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "dependency-cruiser": "^16.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
